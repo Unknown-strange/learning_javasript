@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(100deg, rgb(154, 92, 212), rgba(7, 56, 235, 0.91));
+}
+
+
+.inbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15rem auto;
+    padding: 5rem 7rem;
+}
+
+.input{
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: rgb(154, 92, 212);
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: rgb(130, 5, 247);
+}
+
+.text{
+    text-align: center;
+    color: #ffff;
+}
